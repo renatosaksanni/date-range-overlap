@@ -1,4 +1,3 @@
-![Build Status](https://img.shields.io/github/actions/workflow/status/renatosaksanni/date-range-overlap/ci.yml?branch=main)
 ![Go Report Card](https://goreportcard.com/badge/github.com/renatosaksanni/date-range-overlap)
 
 # Date Range Overlap
