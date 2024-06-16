@@ -1,3 +1,6 @@
+![Build Status](https://img.shields.io/github/actions/workflow/status/renatosaksanni/date-range-overlap/ci.yml?branch=main)
+![Go Report Card](https://goreportcard.com/badge/github.com/renatosaksanni/date-range-overlap)
+
 # Date Range Overlap
 
 This project provides a Go wrapper to check for overlapping date ranges. It utilizes a simple and efficient algorithm to determine if two date ranges overlap.
