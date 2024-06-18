@@ -1,8 +1,0 @@
-mode: set
-github.com/renatosaksanni/date-range-overlap/cmd/main.go:10.13,20.31 3 0
-github.com/renatosaksanni/date-range-overlap/cmd/main.go:20.31,22.3 1 0
-github.com/renatosaksanni/date-range-overlap/cmd/main.go:22.8,24.3 1 0
-github.com/renatosaksanni/date-range-overlap/internal/domain/daterange/date_range.go:12.51,14.2 1 1
-github.com/renatosaksanni/date-range-overlap/pkg/utils/utils.go:6.42,8.16 2 1
-github.com/renatosaksanni/date-range-overlap/pkg/utils/utils.go:8.16,9.13 1 0
-github.com/renatosaksanni/date-range-overlap/pkg/utils/utils.go:11.2,11.13 1 1
