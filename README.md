@@ -4,6 +4,15 @@
 
 This project provides a Go wrapper to check for overlapping date ranges. It utilizes a simple and efficient algorithm to determine if two date ranges overlap.
 
+# Summary of "The Overlapping Date Range Test"
+The algorithm for determining if two date ranges overlap is as follows: Two periods overlap if the start date of one is before the end date of the other, and vice versa. This can be implemented in Go using the following condition:
+```go
+if (period.End.After(selection.Start) && period.Start.Before(selection.End)) {
+    // period overlaps selection
+}
+```
+For more information, visit the original article: [The Overlapping Date Range Test](https://logic-and-trick.com/page/the-overlapping-date-range-test.html).
+
 # Setup
 ### Prerequisites
 - Go 1.20 or higher
@@ -23,11 +32,3 @@ To run the unit tests:
 ```sh
 go test ./... -coverprofile=coverage.out
 ```
-# Summary of "The Overlapping Date Range Test"
-The algorithm for determining if two date ranges overlap is as follows: Two periods overlap if the start date of one is before the end date of the other, and vice versa. This can be implemented in Go using the following condition:
-```go
-if (period.End.After(selection.Start) && period.Start.Before(selection.End)) {
-    // period overlaps selection
-}
-```
-For more information, visit the original article: [The Overlapping Date Range Test](https://logic-and-trick.com/page/the-overlapping-date-range-test.html).
