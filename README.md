@@ -1,5 +1,5 @@
 [![codecov](https://codecov.io/gh/renatosaksanni/date-range-overlap/branch/main/graph/badge.svg)](https://codecov.io/gh/renatosaksanni/date-range-overlap)
-![Go Report Card](https://goreportcard.com/badge/github.com/renatosaksanni/date-range-overlap)
+[![Go Report Card](https://goreportcard.com/badge/github.com/renatosaksanni/date-range-overlap)](https://goreportcard.com/report/github.com/renatosaksanni/date-range-overlap)
 
 # Date Range Overlap
 
